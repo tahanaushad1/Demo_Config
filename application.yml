@@ -1,9 +1,4 @@
-spring:
-  application:
-    name: Config_API
-  cloud:
-    compatibility-verifier:
-      enabled: false  
+
   boot:
     admin:
       client:
