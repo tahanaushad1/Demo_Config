@@ -1,9 +1,10 @@
 spring:
   application:
     name: Config_API
- 
- 
- boot:
+  cloud:
+    compatibility-verifier:
+      enabled: false  
+  boot:
     admin:
       client:
         url: http://localhost:1111/
